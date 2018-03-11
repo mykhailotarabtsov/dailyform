@@ -106,6 +106,10 @@ body{
 	cursor: pointer;
 }
 
+.from-block__email {
+	text-transform: lowercase;
+}
+
 .form-block input:focus, .form-block input:active {
 	outline: #3D9970 solid 2px;
 }
