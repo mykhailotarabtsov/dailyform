@@ -103,8 +103,11 @@ body{
 	border-radius: 4px;
 	background-color: #f0f0f0;
 	border: none;
-	outline: none;
 	cursor: pointer;
+}
+
+.form-block input:focus, .form-block input:active {
+	outline: #3D9970 solid 2px;
 }
 
 /* Layout */
