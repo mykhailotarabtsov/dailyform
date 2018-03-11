@@ -2,10 +2,10 @@
 	box-sizing: border-box;
 }
 
-::-webkit-input-placeholder {color:#7a7b7f;}
-::-moz-placeholder          {color:#7a7b7f;}/* Firefox 19+ */
-:-moz-placeholder           {color:#7a7b7f;}/* Firefox 18- */
-:-ms-input-placeholder      {color:#7a7b7f;}
+::-webkit-input-placeholder {color:#7a7b7f; text-transform: capitalize; }
+::-moz-placeholder          {color:#7a7b7f; text-transform: capitalize; }/* Firefox 19+ */
+:-moz-placeholder           {color:#7a7b7f; text-transform: capitalize; }/* Firefox 18- */
+:-ms-input-placeholder      {color:#7a7b7f; text-transform: capitalize; }
 
 body{
 	font-size: 16px;
@@ -106,7 +106,7 @@ body{
 	cursor: pointer;
 }
 
-.from-block__email {
+.form-block .from-block__email {
 	text-transform: lowercase;
 }
 
